@@ -6,6 +6,6 @@ end
 
 def count_empty_strings(array)
   array.count do |elt|
-    elt.nil?
+    elt == ""
   end
 end
